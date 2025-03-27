@@ -191,7 +191,7 @@ export interface WebAPITimetable {
     studentGroup: string;
     hasInfo: boolean;
     code: number;
-    cellState: 'STANDARD' | 'SUBSTITUTION' | 'ROOMSUBSTITUTION';
+    cellState: 'STANDARD' | 'SUBSTITUTION' | 'ROOMSUBSTITUTION' | 'ADDITIONAL';
     priority: number;
     is: {
         roomSubstitution?: boolean;
