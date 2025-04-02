@@ -194,6 +194,7 @@ export interface WebAPITimetable {
     cellState: 'STANDARD' | 'SUBSTITUTION' | 'ROOMSUBSTITUTION' | 'ADDITIONAL';
     priority: number;
     is: {
+        cancelled?: boolean;
         roomSubstitution?: boolean;
         substitution?: boolean;
         standard?: boolean;
